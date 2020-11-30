@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Dr.Charles">
+
+    <title>Mobile Money</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/full-slider.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="cssawe\font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="cssawe\font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style_file.css">
+
+
+<style type="text/css">
+input[type=submit]{
+  background-color:#870000;
+  border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:5px;
+    font-size: 16px;
+    margin-left:80px;
+} 
+input[type=submit]:hover{
+  border:1px solid #870000;
+background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  color:#870000; 
+} 
+/*p:hover{
+  background-color:#21618C;
+  color:#00FF80;
+}*/
+</style>
+  </head>
+
+  <body class="back">
+
+    <!-- Navigation 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+
+    -->
+    <nav class="navbar navbar-expand-lg  fixed-top naviguer" style="/*background-color:#00FF80;*//*text-shadow: 0 21px 1px rgba(0,0,0,0.3);*/">
+      <div class="container" style="max-height:300px;min-height: 75px;font-family: 'Lucida Console', Times, serif;">
+        <a class="navbar-brand text" href="#" style="font-size:30px;margin-right:-50px;">Mobile Money</a> 
+                <a href="2.png" style="display: inline-block;transition: 0.3s;"> <img src="2.png" alt="2" style="display:block;width: 30%;margin:auto"></a>
+        <button class="navbar-toggler text" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <!--<span class="navbar-toggler-icon"></span>-->
+          <i class="fa fa-bars" aria-hidden="true" style="font-size:25px; padding: 0px;"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto ">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"><i class="fa fa-home fa-2x" style="padding-top: 0px;"></i>
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.php">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header style="margin-top:170px;min-height: 500px; max-height:1500px;">
+      <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-4" style="margin:0 auto;padding-top:20px;border:1px solid #870000;min-height:450px;max-height:1000px;border-radius:10px;box-shadow:0px 0px 5px 5px;">
+<form method="post" action="signin.php">
+  <div style="margin:0 auto;min-height:100px;max-height:1300px;min-width:150px;max-width:300px;">
+  <p style="background-color:#870000;padding-top:2px;color:white;font-size:25px;border-radius:10px;text-align: center;height:50px;">Sign In</p>
+
+  <section style="min-height:50px;max-height:100px;min-width:150px;max-width:300px; ">
+    <center><label style="color:#870000;font-size:25px;">PhoneNumber</label>
+  <input type="number" name="PhoneNumber" style="height:35px;min-width:50px;max-width:250px;color:black;font-size:25px;padding:5px;border:1px solid #870000;" maxlength="10" required />  </center>
+</section>
+
+  <section style="min-height:50px;max-height:100px;min-width:150px;max-width:300px; ">
+    <center><label style="color:#870000;font-size:25px;">Code pin</label>
+  <input type="password" name="codepin" style="height:35px;min-width:50px;max-width:250px;color:black;font-size:25px;padding:5px;border:1px solid #870000;" maxlength="5" required />   </center>
+  </section>
+  <br/>
+  <section style="margin:0 auto;min-height:50px;max-height:100px;min-width:150px;max-width:300px; ">
+
+<input type="submit" name="send" value="sign in" style="margin-left:32%;" />
+<br></br>
+<label><a href="#" style="color:#870000;">Forgot Password ?</a></label>
+<br/>
+<label>Don't Have An Account ? <a href="sign2.php" style="color:#870000;">Register now </a></label>
+  </section>
+</div>
+
+</form>
+</div>
+</div>
+</div>
+    </header>
+
+
+    <!-- Footer
+<footer class="py-5 bg-dark"
+     -->
+    <footer class="py-5 naviguer text" style="min-height: 200px;">
+      <div class="container">
+        <br></br>
+         <br></br>
+          <br></br>
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>

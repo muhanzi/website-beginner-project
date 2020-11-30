@@ -1,0 +1,71 @@
+nav ul li a {
+    
+color: #ECE9E6;  /* fallback for old browsers */
+color: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+color: linear-gradient(to right, #FFFFFF, #ECE9E6); 
+
+
+    display: inline-flex;
+  text-decoration: none;
+
+  }
+nav ul li a:hover{
+    /*background-color: black; */
+    display: inline-flex;
+    
+color:  #e1eec3;  /* fallback for old browsers */
+    font-size:20px;
+   /*  border-radius: 1px 2px;
+     box-shadow: 1PX;  */
+  }
+p button,.butt{
+  border: none; 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+color: #870000;
+   background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+} 
+p button:hover,.butt:hover{
+  
+  color: #ECE9E6;  /* fallback for old browsers */
+color: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+color: linear-gradient(to right, #FFFFFF, #ECE9E6);
+
+background: #870000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #870000, #190A05);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #870000, #190A05); 
+} 
+.capt{
+  top:0%;
+              
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+}
+.naviguer{
+  background: #870000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #870000, #190A05);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #870000, #190A05); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-bottom:1px solid #ECE9E6;/*border-top:1px solid #ECE9E6;*/
+}
+.text,.text:hover{
+  color: #ECE9E6;  /* fallback for old browsers */
+color: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+color: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.back{
+  color: #870000;
+   background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+}
